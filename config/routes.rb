@@ -6,4 +6,6 @@ Rails.application.routes.draw do
 
   # Most off apps would require
   telegram_webhook Telegram::WebhookController
+
+  get '/' => 'root#index'
 end
